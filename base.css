@@ -3,7 +3,7 @@
 /* 2016 Status */
 @import url("https://zuzumi-f.github.io/classic-discord-status/2016-status.css");
 /* Discolored by Nyri4 */
-/*@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
 
 /* Theme dark only */
 .theme-dark, .theme-light {
@@ -1541,7 +1541,7 @@ body, .appMount-2yBXZl {
     margin-top: 1px;
 }
 
-/* Spectators call */
+/* Spectators call 
 .popoutWrapper-3ks_kl .scroller-3b1p7z {
     background-color: hsla(0, 0%, 6%, 0.4);
     border: 1px solid hsla(0, 0%, 50%, 0.4);
