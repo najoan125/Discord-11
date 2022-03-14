@@ -1504,13 +1504,13 @@ body, .appMount-2yBXZl {
     background-color: hsla(0, 0%, 100%, 0.04);
 }
 
-/* Call lol */
+/* Call lol 
 .avatarStack-3vfSFa .avatarSpeaking-33RRJU {
     display: none;
 }
 .avatarSpeaking-2pCGrZ, .border-2BJQjd.speaking-3RWJBr, .border-2Vy6FN.speaking-7QZEkv {
     box-shadow: inset 0 0 0 2px var(--brand-experiment);
-}
+}*/
 
 .noiseCancellationPopout-2-e5Xz {
     background-color: hsla(0, 0%, 6%, 0.4);
@@ -1541,7 +1541,7 @@ body, .appMount-2yBXZl {
     margin-top: 1px;
 }
 
-/* Spectators call 
+/* Spectators call */
 .popoutWrapper-3ks_kl .scroller-3b1p7z {
     background-color: hsla(0, 0%, 6%, 0.4);
     border: 1px solid hsla(0, 0%, 50%, 0.4);
