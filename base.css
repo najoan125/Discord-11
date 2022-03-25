@@ -1915,6 +1915,7 @@ body, .appMount-2yBXZl {
 }
 
 /* Grabber */
+/*
 #app-mount .grabber-2GQyvM {
     filter: brightness(1.4);
     background-color: var(--background-secondary);
