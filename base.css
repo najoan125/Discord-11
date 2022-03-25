@@ -1697,6 +1697,7 @@ body, .appMount-2yBXZl {
 }
 
 /* BrandNew Button */
+/*
 #app-mount .lookFilled-yCfaCM.colorBrandNew-2-gGsS {
     background-color: var(--brand-experiment);
 }
@@ -1705,6 +1706,7 @@ body, .appMount-2yBXZl {
 }
 
 /* Text Focus? */
+/*
 .bioTextArea-dDGOeC:focus-within, .addFriendInputWrapper-kkoSV9:focus-within {
     border-color: var(--brand-experiment-500);
 }
