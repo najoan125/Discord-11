@@ -530,7 +530,6 @@
 }
 
 /* Chatbar */
-/*
 .scrollableContainer-15eg7h {
     background-color: hsla(0, 0%, 10%, 0.6);
     border: 1px solid;
@@ -977,6 +976,7 @@
 }
 
 /* Channels and members */
+/*
 .selected-1-Z6gm .layout-1qmrhw::before {
     background-color: var(--brand-experiment);
     content: "";
