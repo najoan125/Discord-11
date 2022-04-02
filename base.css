@@ -67,6 +67,17 @@
     --deprecated-text-input-border-disabled: hsl(196, 0%, 14%);
     --deprecated-text-input-prefix: hsl(180, 0%, 87%);
 }
+/* Cursor */
+#app-mount *:not(.searchBar-2aylmZ *, .search-39IXmY *, .addFriendInputWrapper-kkoSV9 *, .searchBar-14YqL- .searchBarComponent-18D6hD *, .searchBar-2M9mRP *, .header-uVCAlo *, .header-2TLOnc *, .inputWrapper-1YNMmM *, .form-3gdLxP *, .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil, .channelTextArea-3TZH74 *, .scrollableContainer-15eg7h *, .note-3M15gE *, .searchBar-3OIGe3 *, .searchContainer-16qhPt *, .searchContainer-2kJ46v *, .searchContainer-23hFke *, .searchContainer-1cOciB *, .searchBar-3joS_I *, .searchBar-20o6Cf *, .resizeHandle-PBRzPC),
+.container-2nx-BQ,
+.input-2XRLou {
+    cursor: default !important;
+}
+
+#app-mount .form-3gdLxP *,
+#app-mount .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil {
+    cursor: auto !important;
+}
 
 /* When you dont use var(--) */
 .theme-dark .container-2cd8Mz, .theme-dark .root-g14mjS, .theme-dark .footer-1hTRRZ, .theme-dark .pageWrapper-2PwDoS, .theme-dark .selected-3H3-RC, .theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk, .theme-dark .perksModal-1pSu7w {
