@@ -518,6 +518,12 @@
     border-bottom: 1px solid hsla(0, 0%, 50%, 0.36);
 }
 
+/* Fix in scroll */
+#app-mount .scrolling-20Of9p .content-2a4AW9 {
+    pointer-events: auto;
+}
+
+
 /* Discover */
 .sidebar-1tnWFu .thin-31rlnD[dir=ltr] {
     background-color: var(--background-secondary);
@@ -2234,6 +2240,7 @@ body, .appMount-2yBXZl {
 }
 
 /* Always bottom server list buttons by Gibbu [edit] */
+
 .wrapper-1_HaEi {
     height: calc(100% - 120px);
 }
@@ -2249,6 +2256,7 @@ body, .appMount-2yBXZl {
     height: 168px;
     background: linear-gradient(transparent, var(--background-tertiary) 30%);
     z-index: 1;
+    pointer-events: none;
 }
 .tutorialContainer-2jwoiB {
     position: fixed;
