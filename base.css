@@ -68,13 +68,6 @@
     --deprecated-text-input-prefix: hsl(180, 0%, 87%);
 }
 
-/* Fix Settings Icons */
-[aria-controls="delete-tab"] svg,
-[aria-controls="logout-tab"] svg,
-.closeButton-30b1gR svg{
-    display: none;
-}
-
 /* Cursor */
 #app-mount *:not(.searchBar-2aylmZ *, .search-39IXmY *, .addFriendInputWrapper-kkoSV9 *, .searchBar-14YqL- .searchBarComponent-18D6hD *, .searchBar-2M9mRP *, .header-uVCAlo *, .header-2TLOnc *, .inputWrapper-1YNMmM *, .form-3gdLxP *, .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil, .channelTextArea-3TZH74 *, .scrollableContainer-15eg7h *, .note-3M15gE *, .searchBar-3OIGe3 *, .searchContainer-16qhPt *, .searchContainer-2kJ46v *, .searchContainer-23hFke *, .searchContainer-1cOciB *, .searchBar-3joS_I *, .searchBar-20o6Cf *, .resizeHandle-PBRzPC),
 .container-2nx-BQ,
@@ -365,13 +358,38 @@
     padding-bottom: 8px;
     padding-top: 8px;
 }
+#app-mount .userProfileActivity-sal5no .platformIcon-k3yytQ {
+    top: 4px;
+}
 #app-mount .userProfileActivity-sal5no .bodyNormal-250CQK,
 #app-mount .userProfileActivity-sal5no .bodyAlignCenter-3E27PU {
     padding: 8px;
-    border-radius: var(--winrad3);
-    flex-direction: column;
+    border-radius: 5px;
+    background-color: var(--background-secondary-alt);
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+    flex-flow: wrap;
     align-items: unset;
-    box-shadow: var(--elevation-low);
+}
+#app-mount .actionsProfile-31n1ca {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8px;
+}
+#app-mount .buttonsWrapper-2ARRp1:empty {
+    margin: 0 !important;
+}
+#app-mount .actionsProfile-31n1ca [type="button"] {
+    width: -webkit-fill-available;
+}
+
+#app-mount .contentImagesActivityFeed-2rPjYe,
+#app-mount .contentImagesProfile-27BIzt,
+#app-mount .contentImagesStreamPreview-38HyRm,
+#app-mount .contentImagesUserPopout-Kqai8z,
+#app-mount .contentImagesUserPopoutV2-2Mcg9w,
+#app-mount .contentImagesVoiceChannel-OHm3LY,
+#app-mount .contentGameImageProfile-24ty00 {
+    width: 0;
 }
 
 .theme-dark .userProfileActivity-sal5no .bodyNormal-250CQK,
@@ -447,35 +465,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--background-primary);
 }
 
-/* Linked Account */
-#app-mount .connectedAccountsColumn-2LgTkZ .connectedAccountOpenIcon-QgWKH8 {
-    color: var(--focus-primary);
-}
 
-/* In Guild Profile */
-#app-mount .guild-profile .guild-profile-body {
-    min-height: 240px;
-    height: 240px;
-    max-height: 240px;
-}
-
-/* Ctrl / */
-#app-mount .keyboardShortcutsModal-2CRmCm {
-    background-color: var(--background-primary);
-    border: var(--windarkborder1);
-    border-radius: var(--winrad3);
-}
-#app-mount .keyboardShortcutsModal-2CRmCm .modalTitle-2skSKy,
-#app-mount .keyboardShortcutsModal-2CRmCm .modalSubtitle-2lx7qk {
-    background-color: var(--background-tertiary);
-}
-#app-mount .keyboardShortcutsModal-2CRmCm .modalTitle-2skSKy {
-    margin: unset;
-    padding-bottom: 5px;
-}
-#app-mount .keyboardShortcutsModal-2CRmCm [class="auto-2K3UW5 scrollerBase-_bVAAt fade-1R6FHN"]::-webkit-scrollbar {
-    width: 10px;
-}
 
 /* Role selector */
 .container-2O1UgZ {
@@ -1797,7 +1787,7 @@ body, .appMount-2yBXZl {
 .side-2ur1Qk .item-3XjbnG::after {
     content: "";
     position: absolute;
-    height: 0;
+    height: 0px;
     width: 3px;
     border-radius: 1.5px;
     left: 0;
