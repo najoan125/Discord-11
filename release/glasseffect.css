@@ -169,6 +169,9 @@ div#app-mount.appMount-2yBXZl::before {
 .theme-dark .container-1NXEtd {
     background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
+.chatContent-3KubbW{
+    background-color: transparent !important;
+}
 
 .theme-light .chat-2ZfjoI,
 .theme-light .container-3XgAHv {
