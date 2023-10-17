@@ -3,7 +3,7 @@ body,
 .app-2CXKsg,
 .scroller-3X7KbA,
 .wrapper-1_HaEi,
-.membersWrap-3NUR2t {
+.membersWrap-3GwLFp {
     background-color: transparent;
 }
 .scroller-3X7KbA {
@@ -149,8 +149,8 @@ div#app-mount.appMount-2yBXZl::before {
     background: hsla(0, 0%, 98%, 0.15) !important;
 }
 
-.members-3WRCEx,
-.members-3WRCEx > div {
+.members-2y1nVj,
+.members-2y1nVj > div {
     background-color: transparent !important;
 }
 #dv-mount,
@@ -162,18 +162,18 @@ div#app-mount.appMount-2yBXZl::before {
     display: none;
 }
 
-.theme-dark .chat-2ZfjoI,
+.theme-dark .chat-9g_3Xj,
 .theme-dark .container-3XgAHv {
     background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 .theme-dark .container-1NXEtd {
     background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
-.chatContent-3KubbW{
+.chatContent-2O4SXb{
     background-color: transparent !important;
 }
 
-.theme-light .chat-2ZfjoI,
+.theme-light .chat-9g_3Xj,
 .theme-light .container-3XgAHv {
     background-color: hsla(0, 0%, 96%, 0.3) !important;
 }
@@ -181,7 +181,7 @@ div#app-mount.appMount-2yBXZl::before {
     background-color: hsla(0, 0%, 96%, 0.3) !important;
 }
 
-.chatContent-3KubbW,
+.chatContent-2O4SXb,
 .channelTextArea-1FufC0 {
     background-color: transparent !important;
 }
